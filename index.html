@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andréa Freire | Atendimento Psicanalítico</title>
+  <meta name="description" content="Atendimento psicanalítico presencial em Sorocaba e online para adolescentes, jovens, adultos e casal." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#26221f',
+            moss: '#5d6b5b',
+            leaf: '#74806b',
+            linen: '#f6f0e8',
+            paper: '#fffaf3',
+            clay: '#b88467',
+            cocoa: '#5a3f35'
+          },
+          fontFamily: {
+            serif: ['Libre Baskerville', 'Georgia', 'serif'],
+            sans: ['Montserrat', 'Arial', 'sans-serif']
+          },
+          boxShadow: {
+            soft: '0 24px 80px rgba(38, 34, 31, .12)'
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-paper text-ink antialiased">
+  <header class="fixed inset-x-0 top-0 z-50 border-b border-ink/10 bg-paper/92 backdrop-blur">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 lg:px-10">
+      <a href="index.html" class="flex items-center gap-3" aria-label="Página inicial">
+        <span class="grid h-14 w-14 place-items-center border border-clay/40 bg-linen font-serif text-2xl font-semibold text-cocoa">AF</span>
+        <span class="leading-tight">
+          <span class="block font-serif text-2xl font-semibold tracking-wide">Andréa Freire</span>
+          <span class="block text-xs uppercase tracking-[0.28em] text-moss">Psicanalista</span>
+        </span>
+      </a>
+
+      <button id="menuButton" class="inline-flex h-11 w-11 items-center justify-center border border-ink/15 lg:hidden" aria-label="Abrir menu" aria-expanded="false">
+        <span class="menu-line"></span>
+      </button>
+
+      <nav id="siteNav" class="hidden items-center gap-8 text-sm font-medium lg:flex">
+        <a href="#inicio" class="nav-link">Início</a>
+        <a href="#psicanalise" class="nav-link">Psicanálise & Vida</a>
+        <a href="#atendimento" class="nav-link">Atendimento</a>
+        <a href="#sobre" class="nav-link">Sobre mim</a>
+        <a href="#reflexao" class="nav-link">Reflexão</a>
+        <a href="https://wa.me/5515996156543?text=Ol%C3%A1%2C%20Andr%C3%A9a.%20Gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noreferrer" class="btn-primary">Agenda</a>
+      </nav>
+    </div>
+    <nav id="mobileNav" class="hidden border-t border-ink/10 bg-paper px-5 py-5 lg:hidden">
+      <div class="grid gap-4 text-sm font-medium">
+        <a href="#inicio" class="mobile-link">Início</a>
+        <a href="#psicanalise" class="mobile-link">Psicanálise & Vida</a>
+        <a href="#atendimento" class="mobile-link">Atendimento</a>
+        <a href="#sobre" class="mobile-link">Sobre mim</a>
+        <a href="#reflexao" class="mobile-link">Reflexão</a>
+        <a href="https://wa.me/5515996156543?text=Ol%C3%A1%2C%20Andr%C3%A9a.%20Gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noreferrer" class="btn-primary text-center">Agendar pelo WhatsApp</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="relative min-h-[92vh] overflow-hidden pt-24">
+      <img src="assets/consultorio-hero.png" alt="Consultório psicanalítico acolhedor" class="absolute inset-0 h-full w-full object-cover" />
+      <div class="absolute inset-0 bg-gradient-to-r from-ink/78 via-ink/45 to-ink/12"></div>
+      <div class="relative mx-auto flex min-h-[calc(92vh-6rem)] max-w-7xl items-center px-5 py-16 lg:px-10">
+        <div class="max-w-3xl text-white">
+          <p class="mb-5 text-sm font-semibold uppercase tracking-[0.32em] text-white/75">Atendimento Psicanalítico</p>
+          <h1 class="font-serif text-5xl font-semibold leading-[0.95] sm:text-6xl lg:text-7xl">Andréa Freire</h1>
+          <p class="mt-7 max-w-2xl text-lg leading-8 text-white/88">Um espaço de escuta para que a palavra encontre caminho, forma e destino.</p>
+          <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+            <a href="https://wa.me/5515996156543?text=Ol%C3%A1%2C%20Andr%C3%A9a.%20Gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noreferrer" class="btn-hero">Agendar atendimento</a>
+            <a href="#psicanalise" class="btn-ghost">Conhecer o trabalho</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="psicanalise" class="section-pad bg-paper">
+      <div class="mx-auto grid max-w-7xl gap-12 px-5 lg:grid-cols-[0.85fr_1.15fr] lg:px-10">
+        <div>
+          <p class="eyebrow">Psicanálise & Vida</p>
+          <h2 class="section-title">A fala abre passagem para o que precisa existir em palavras.</h2>
+        </div>
+        <div class="space-y-7 text-lg leading-8 text-ink/78">
+          <p>A fala é o caminho para as palavras escoarem da mente. Formam ondas que movimentam a alma. Vamos juntos navegar neste mar?</p>
+          <p>Encontrar a escuta para sua voz: não estar só falando ao vento ou engolindo as palavras, mas formando um par que juntos ouvirão e dirão o que há de mais importante para sua vida.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="atendimento" class="bg-linen py-20">
+      <div class="mx-auto max-w-7xl px-5 lg:px-10">
+        <div class="grid gap-8 lg:grid-cols-[1fr_1.2fr] lg:items-end">
+          <div>
+            <p class="eyebrow">Atendimento Presencial e Online</p>
+            <h2 class="section-title">Em Sorocaba, online para o Brasil e exterior.</h2>
+          </div>
+          <p class="text-lg leading-8 text-ink/74">Público: adolescentes, jovens e adultos, casal, em Sorocaba (SP) ou de forma remota para todo o país e exterior.</p>
+        </div>
+        <div class="mt-12 grid gap-4 md:grid-cols-3">
+          <article class="service-card">
+            <span>01</span>
+            <h3>Adolescentes e jovens</h3>
+            <p>Escuta para atravessamentos, escolhas, angústias e construção de identidade.</p>
+          </article>
+          <article class="service-card">
+            <span>02</span>
+            <h3>Adultos</h3>
+            <p>Um espaço para elaborar afetos, relações, ansiedade, perdas e questões de vida.</p>
+          </article>
+          <article class="service-card">
+            <span>03</span>
+            <h3>Casal</h3>
+            <p>Trabalho de fala e escuta para vínculos, conflitos e modos de estar junto.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section-pad bg-paper">
+      <div class="mx-auto grid max-w-7xl gap-12 px-5 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:px-10">
+        <div class="photo-frame">
+          <div class="photo-placeholder">
+            <span>Foto</span>
+            <strong>Andréa Freire</strong>
+          </div>
+        </div>
+        <div>
+          <p class="eyebrow">Sobre mim</p>
+          <h2 class="section-title">Psicanalista há 15 anos.</h2>
+          <div class="space-y-5 text-base leading-8 text-ink/76">
+            <p>Com formação pelo ILPC, Instituto Latino-Americano de Psicanálise Contemporânea, tendo especializações em Psicoterapia Breve Operacionalizada e Psicoterapia Psicanalítica, ambas de Ryad Simon (UNIP), além de Transtornos Ansiosos e Depressivos e Neuropsicanálise (Faculdade Unyleya).</p>
+            <p>Diretora e professora do INPSI, Instituto Nacional de Psicanálise, com sede em Sorocaba, fundado em 2013, tendo formado mais de 150 psicanalistas. O instituto também realiza cursos e seminários para profissionais das áreas psi, oferecendo um estudo continuado.</p>
+          </div>
+          <a href="sobre.html" class="mt-8 inline-flex items-center gap-3 font-semibold text-cocoa underline-offset-4 hover:underline">Mais sobre mim <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="reflexao" class="bg-cocoa py-20 text-white">
+      <div class="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:px-10">
+        <div>
+          <p class="mb-4 text-sm font-semibold uppercase tracking-[0.32em] text-white/60">Reflexão</p>
+          <h2 class="font-serif text-4xl font-semibold leading-tight sm:text-5xl">A solidão, o mal do século!</h2>
+        </div>
+        <div class="border-l border-white/20 pl-6">
+          <p class="text-lg leading-8 text-white/78">Um texto sobre vínculos profundos, escuta verdadeira, solitude e o caminho psicanalítico como possibilidade de aproximação de si e do outro.</p>
+          <a href="reflexao-solidao.html" class="mt-7 inline-flex items-center gap-3 bg-white px-6 py-3 text-sm font-bold uppercase tracking-[0.18em] text-cocoa transition hover:bg-linen">Ler reflexão <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-ink px-5 py-12 text-white lg:px-10">
+    <div class="mx-auto grid max-w-7xl gap-8 md:grid-cols-3">
+      <div>
+        <h2 class="font-serif text-3xl font-semibold">Andréa Freire</h2>
+        <p class="mt-3 text-sm leading-6 text-white/62">Atendimento psicanalítico presencial em Sorocaba e online.</p>
+      </div>
+      <div>
+        <p class="footer-label">Contato</p>
+        <a href="https://wa.me/5515996156543" target="_blank" rel="noreferrer" class="mt-3 block text-white/78 hover:text-white">(15) 99615-6543</a>
+      </div>
+      <div>
+        <p class="footer-label">Agenda</p>
+        <a href="https://wa.me/5515996156543?text=Ol%C3%A1%2C%20Andr%C3%A9a.%20Gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noreferrer" class="mt-3 inline-block text-white/78 underline underline-offset-4 hover:text-white">Agendar pelo WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

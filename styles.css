@@ -1,0 +1,225 @@
+html {
+  scroll-padding-top: 96px;
+}
+
+body {
+  min-width: 320px;
+}
+
+.nav-link {
+  position: relative;
+  color: rgba(38, 34, 31, .78);
+  transition: color .2s ease;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 0;
+  height: 1px;
+  background: #5a3f35;
+  transition: width .2s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #26221f;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+.mobile-link {
+  border-bottom: 1px solid rgba(38, 34, 31, .1);
+  padding-bottom: .75rem;
+}
+
+.btn-primary,
+.btn-hero {
+  align-items: center;
+  background: #5a3f35;
+  color: white;
+  display: inline-flex;
+  font-size: .78rem;
+  font-weight: 800;
+  justify-content: center;
+  letter-spacing: .16em;
+  min-height: 3rem;
+  padding: .9rem 1.25rem;
+  text-transform: uppercase;
+  transition: background .2s ease, transform .2s ease;
+}
+
+.btn-primary:hover,
+.btn-hero:hover {
+  background: #26221f;
+  transform: translateY(-1px);
+}
+
+.btn-ghost {
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, .55);
+  color: white;
+  display: inline-flex;
+  font-size: .78rem;
+  font-weight: 800;
+  justify-content: center;
+  letter-spacing: .16em;
+  min-height: 3rem;
+  padding: .9rem 1.25rem;
+  text-transform: uppercase;
+  transition: background .2s ease, color .2s ease;
+}
+
+.btn-ghost:hover {
+  background: white;
+  color: #5a3f35;
+}
+
+.section-pad {
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+}
+
+.eyebrow {
+  color: #74806b;
+  font-size: .75rem;
+  font-weight: 800;
+  letter-spacing: .24em;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: clamp(2.5rem, 5vw, 4.8rem);
+  font-weight: 600;
+  line-height: .98;
+}
+
+.service-card {
+  background: rgba(255, 250, 243, .86);
+  border: 1px solid rgba(38, 34, 31, .1);
+  min-height: 230px;
+  padding: 1.5rem;
+}
+
+.service-card span {
+  color: #b88467;
+  display: block;
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.service-card h3 {
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-top: 2rem;
+}
+
+.service-card p {
+  color: rgba(38, 34, 31, .68);
+  line-height: 1.75;
+  margin-top: .9rem;
+}
+
+.photo-frame {
+  background: #f6f0e8;
+  border: 1px solid rgba(90, 63, 53, .16);
+  padding: 1rem;
+}
+
+.photo-placeholder {
+  align-items: center;
+  aspect-ratio: 4 / 5;
+  background:
+    linear-gradient(145deg, rgba(116, 128, 107, .28), rgba(184, 132, 103, .14)),
+    #fffaf3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 420px;
+  text-align: center;
+}
+
+.photo-placeholder span {
+  border-bottom: 1px solid rgba(90, 63, 53, .35);
+  color: rgba(90, 63, 53, .62);
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .24em;
+  padding-bottom: .65rem;
+  text-transform: uppercase;
+}
+
+.photo-placeholder strong {
+  color: #5a3f35;
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: clamp(2.4rem, 7vw, 4rem);
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.course-item {
+  background: #f6f0e8;
+  border-left: 3px solid #b88467;
+  color: rgba(38, 34, 31, .76);
+  line-height: 1.75;
+  padding: 1.1rem 1.25rem;
+}
+
+.footer-label {
+  color: rgba(255, 255, 255, .48);
+  font-size: .75rem;
+  font-weight: 800;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+.menu-line,
+.menu-line::before,
+.menu-line::after {
+  background: #26221f;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 20px;
+}
+
+.menu-line {
+  position: relative;
+}
+
+.menu-line::before {
+  position: absolute;
+  top: -7px;
+}
+
+.menu-line::after {
+  position: absolute;
+  top: 7px;
+}
+
+@media (max-width: 640px) {
+  .section-pad {
+    padding-bottom: 4.5rem;
+    padding-top: 4.5rem;
+  }
+
+  .photo-placeholder {
+    min-height: 320px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .photo-frame {
+    position: static !important;
+  }
+}
