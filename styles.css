@@ -167,6 +167,14 @@ body {
   margin-top: 1rem;
 }
 
+.profile-photo {
+  aspect-ratio: 4 / 5;
+  display: block;
+  min-height: 420px;
+  object-fit: cover;
+  width: 100%;
+}
+
 .course-item {
   background: #f6f0e8;
   border-left: 3px solid #b88467;
@@ -214,6 +222,10 @@ body {
   }
 
   .photo-placeholder {
+    min-height: 320px;
+  }
+
+  .profile-photo {
     min-height: 320px;
   }
 }
