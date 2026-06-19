@@ -104,30 +104,31 @@ body {
 .service-card {
   background: rgba(255, 250, 243, .86);
   border: 1px solid rgba(38, 34, 31, .1);
-  min-height: 230px;
   padding: 1.5rem;
-}
 
-.service-card span {
-  color: #b88467;
-  display: block;
-  font-family: "Libre Baskerville", Georgia, serif;
-  font-size: 2.5rem;
-  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+
+  min-height: 420px;
+  height: 100%;
 }
 
 .service-card h3 {
   font-family: "Libre Baskerville", Georgia, serif;
-  font-size: 2rem;
+  font-size: 1.6rem; /* antes era 2rem */
   font-weight: 600;
-  line-height: 1.1;
+  line-height: 1.2;
   margin-top: 2rem;
+
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal;
 }
 
 .service-card p {
+  margin-top: 1rem;
   color: rgba(38, 34, 31, .68);
   line-height: 1.75;
-  margin-top: .9rem;
 }
 
 .photo-frame {
