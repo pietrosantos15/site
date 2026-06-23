@@ -1,55 +1,33 @@
-# 🌿 Site Andréa Freire
+# Andréa Freire — Atendimento Psicanalítico 🌿
 
-Site institucional desenvolvido para a psicanalista Andréa Freire, apresentando seus serviços, experiência profissional, reflexões e formas de contato.
+Site institucional desenvolvido para a psicanalista Andréa Freire, com foco em acolhimento, profissionalismo e acessibilidade, apresentando seus serviços de atendimento, trajetória profissional e conteúdos voltados à saúde emocional.
 
-## 🚀 Tecnologias
+## 📄 Sobre o Projeto
 
-- HTML5
-- CSS3
-- JavaScript
-- Tailwind CSS
+Este projeto foi desenvolvido para fortalecer a presença digital da psicanalista Andréa Freire, reunindo em um único ambiente informações sobre sua atuação clínica, formação, modalidades de atendimento e participação em palestras, seminários e cursos.
 
-## ✨ Funcionalidades
+A plataforma foi projetada com uma identidade visual elegante e acolhedora, proporcionando uma navegação intuitiva e uma experiência fluida em diferentes dispositivos.
 
-- Página inicial responsiva
-- Informações sobre atendimento presencial e online
-- Seção sobre a profissional
-- Página de reflexões
-- Página de palestras e cursos
-- Integração com WhatsApp
-- Menu responsivo para dispositivos móveis
+## ✨ Funcionalidades Principais
 
-## 📂 Estrutura
+- Página inicial institucional com apresentação profissional.
+- Seção sobre Psicanálise e o processo de escuta terapêutica.
+- Informações sobre atendimento presencial e online.
+- Página dedicada à trajetória e formação profissional.
+- Área de reflexões com textos sobre saúde emocional.
+- Página para divulgação de palestras, seminários e cursos.
+- Integração direta com WhatsApp para contato e agendamento.
+- Navegação responsiva adaptada para dispositivos móveis e desktops.
 
-```bash
-.
-├── index.html
-├── sobre.html
-├── reflexao-solidao.html
-├── contatopalestra.html
-├── styles.css
-├── script.js
-└── assets/
-```
+## 🛠️ Stack Tecnológica
 
-## 💻 Executando o projeto
+O projeto foi desenvolvido utilizando tecnologias web modernas, priorizando desempenho, simplicidade e responsividade:
 
-Clone o repositório:
+- **HTML5 & CSS3:** estrutura semântica e estilização personalizada.
+- **Tailwind CSS:** framework utilitário utilizado para construção da interface e responsividade.
+- **JavaScript (Vanilla ES6):** gerenciamento do menu mobile e interações da navegação.
+- **Google Fonts:** utilização das fontes Libre Baskerville e Montserrat para compor a identidade visual.
 
-```bash
-git clone https://github.com/pietrosantos15/site.git
-```
+## 🎯 Objetivo
 
-Entre na pasta do projeto:
-
-```bash
-cd site
-```
-
-Abra o arquivo `index.html` em seu navegador ou utilize a extensão **Live Server** do VS Code.
-
-## 👨‍💻 Autor
-
-Desenvolvido por Pietro Santos.
-
-GitHub: https://github.com/pietrosantos15
+Criar uma plataforma digital que represente a identidade profissional da psicanalista Andréa Freire, facilitando o acesso às informações, fortalecendo sua presença online e aproximando pacientes e interessados de seu trabalho.
